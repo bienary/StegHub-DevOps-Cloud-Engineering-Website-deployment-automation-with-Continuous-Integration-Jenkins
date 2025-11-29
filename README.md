@@ -8,4 +8,12 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 
 <img width="925" height="494" alt="image" src="https://github.com/user-attachments/assets/5d940bb7-e00b-4adb-8367-6344e6ab8e34" />
 
+---
 
+# Step 1: Install Jenkins Server
+
+> Launch an Ubuntu EC2 instance and name it Jenkins
+
+> **Configure Security Group to allow:**
+> Port 22 → SSH access for management
+> Port 8080 → Jenkins default HTTP port for the web user interface.
