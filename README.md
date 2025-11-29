@@ -1,2 +1,2 @@
-# ⚙️🌐Automation of Website Deployment with Continuous Integration Using Jenkins
+# 🌐 Automation of Website Deployment with Continuous Integration Using Jenkins
 
