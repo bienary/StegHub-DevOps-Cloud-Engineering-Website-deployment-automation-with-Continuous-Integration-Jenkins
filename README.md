@@ -25,4 +25,30 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 
 <img width="1164" height="478" alt="image" src="https://github.com/user-attachments/assets/d33d42fa-6420-4334-a3d3-e5af4e8d1405" />
 
+## Connect to the server via SSH, then update the system packages and install the required dependencies.
+
+```
+sudo apt update
+
+sudo apt install -y fontconfig openjdk-17-jre
+```
+
+## Add the Jenkins repository key and configure the Jenkins package repository on the server.
+
+```
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | \
+  sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+```
+
+- Install Jenkins:
+
+```
+sudo apt-get update
+
+sudo apt-get install jenkins -y
+```
 
