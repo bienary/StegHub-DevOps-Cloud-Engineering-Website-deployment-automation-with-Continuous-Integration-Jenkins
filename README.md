@@ -15,5 +15,7 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 > Launch an Ubuntu EC2 instance and name it Jenkins
 
 > **Configure Security Group to allow:**
+
 > Port 22 → SSH access for management
+
 > Port 8080 → Jenkins default HTTP port for the web user interface.
