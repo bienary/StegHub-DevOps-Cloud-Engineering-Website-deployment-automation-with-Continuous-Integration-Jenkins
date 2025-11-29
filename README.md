@@ -19,3 +19,10 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 > Port 22 → SSH access for management
 
 > Port 8080 → Jenkins default HTTP port for the web user interface.
+
+<img width="1158" height="613" alt="image" src="https://github.com/user-attachments/assets/6ea65f87-a535-452a-95ae-8027eaa5e619" />
+
+
+<img width="1164" height="478" alt="image" src="https://github.com/user-attachments/assets/d33d42fa-6420-4334-a3d3-e5af4e8d1405" />
+
+
