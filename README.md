@@ -117,7 +117,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 >  Click "Add Webhook"
 
->  "Payload URL" (http://<Jenkins-server-public-ip>:8080/github-webhook/)
+>  "Payload URL" (http://13.48.42.45:8080/github-webhook/)
 
 >  "Content Type" (application/json)
 
