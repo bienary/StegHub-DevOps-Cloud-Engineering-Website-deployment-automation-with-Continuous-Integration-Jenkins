@@ -14,7 +14,7 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 
 > Launch an Ubuntu EC2 instance and name it Jenkins
 
-> **Configure Security Group to allow:**
+- **Configure Security Group to allow:**
 
 > Port 22 — SSH (Secure Shell): Used for remote server management and administrative access.
 
