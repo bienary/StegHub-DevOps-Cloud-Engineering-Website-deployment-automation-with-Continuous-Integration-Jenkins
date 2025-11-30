@@ -95,3 +95,33 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 - Create an admin user (Username, Password, Full name, and Email):
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/ad41224c-7b83-45a8-9bd7-ce3af0036ffe" />
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/7974faaf-f13c-4c5c-93f0-040a546d1454" />
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/5dee7be9-da4b-4c5f-8c46-3127334a5146" />
+
+
+# Step 2 :  Configure Jenkins to retrieve source codes from GitHub using Webhooks
+
+- Enable Webhooks in your GitHub repository settings by following this guide:
+
+- Go to your "GitHub repository"
+
+> Click "Settings"
+
+>  Click "Webhooks"
+
+>  Click "Add Webhook"
+
+>  "Payload URL" (http://<Jenkins-server-public-ip>:8080/github-webhook/)
+
+>  "Content Type" (application/json)
+
+>  Select “Just the push event”
+
+>  Click on “Add Webhook”
+
