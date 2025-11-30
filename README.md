@@ -47,7 +47,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
 
-- Install Jenkins:
+### - Install Jenkins:
 
 ```
 sudo apt-get update
@@ -72,4 +72,26 @@ sudo systemctl status jenkins
 <img width="1320" height="532" alt="image" src="https://github.com/user-attachments/assets/98dbc760-c820-4a99-9de5-ff634de11dfb" />
 
 
+### Jenkins Setup:
 
+- Access Jenkins through your web browser at `http://<Jenkins-server-public-ip>:8080`
+
+- You will be prompted for an admin password. Retrieve it from the server:
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/9c0008de-b0e5-4413-8c3c-a85f63c65267" />
+
+
+- Once you log in, you will be asked to choose plugins. Select the suggested plugins.
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/1f9f2209-d4a1-4dc9-9b17-fc0e11f742bf" />
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/8f4b02c4-352d-4475-8d08-6c489819d5e8" />
+
+
+- Create an admin user (Username, Password, Full name, and Email):
