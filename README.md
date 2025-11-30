@@ -154,12 +154,22 @@ https://github.com/bienary/tooling.git
 - Go to your GitHub repository and copy your repository link.
 
 
+<img width="1320" height="687" alt="Screenshot From 2025-11-30 21-29-38" src="https://github.com/user-attachments/assets/5ccc2847-a167-484a-a8ad-bca103b6ddef" />
+
+
+- In the Jenkins project configuration page, click the Source Code Management section.
+
+- Select Git as the repository source.
+
+- In the Repository URL field, enter the URL of your Tooling GitHub repository. `https://github.com/bienary/tooling.git`
+
 <img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/6fa973c8-4a0c-4eb4-9a2e-cca7550e0665" />
 
+- Click the "Build Now" button. If you have configured everything correctly, the build will be successful.
+- Under “Branch Specifier,” select "Main" or "Master" depending on your GitHub repository branch
+- Save the configuration.
 
 
-
-<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/33e9a136-6bf1-4bd1-a546-542577fca910" />
-
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/ded3e40a-a4cd-4c31-88f6-05f6656657c5" />
 
 
