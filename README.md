@@ -125,3 +125,26 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 >  Click on “Add Webhook”
 
+
+<img width="1320" height="687" alt="Screenshot From 2025-11-30 21-10-37" src="https://github.com/user-attachments/assets/64c2a42e-0419-4131-8a99-06410df2e2f0" />
+
+
+<img width="1320" height="687" alt="Screenshot From 2025-11-30 21-11-20" src="https://github.com/user-attachments/assets/26407839-d5a7-4b33-84d9-6dffff78fba5" />
+
+
+- Create a Jenkins Freestyle Project:
+
+> Go to Jenkins web console
+
+> Click "New Item" and create a "Freestyle project"
+
+> Item Name: tooling_github
+
+> Select “OK”
+
+- To connect our GitHub repository, we need its URL, e.g:
+```
+https://github.com/bienary/tooling.git
+```
+
+
