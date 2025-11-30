@@ -151,4 +151,15 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 https://github.com/bienary/tooling.git
 ```
 
+- Go to your GitHub repository and copy your repository link.
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/6fa973c8-4a0c-4eb4-9a2e-cca7550e0665" />
+
+
+
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/33e9a136-6bf1-4bd1-a546-542577fca910" />
+
+
 
