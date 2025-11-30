@@ -16,9 +16,9 @@ In this project, Jenkins is configured to continuously integrate and deploy upda
 
 > **Configure Security Group to allow:**
 
-> Port 22 → SSH access for management
+> Port 22 — SSH (Secure Shell): Used for remote server management and administrative access.
 
-> Port 8080 → Jenkins default HTTP port for the web user interface.
+> Port 8080 — Jenkins Web UI: Default HTTP port used to access the Jenkins web interface for build and pipeline management.
 
 <img width="1158" height="613" alt="image" src="https://github.com/user-attachments/assets/6ea65f87-a535-452a-95ae-8027eaa5e619" />
 
@@ -52,3 +52,4 @@ sudo apt-get update
 sudo apt-get install jenkins -y
 ```
 
+- Start and enable Jenkins:
