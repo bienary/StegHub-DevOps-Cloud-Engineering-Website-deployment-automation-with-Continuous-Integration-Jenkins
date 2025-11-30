@@ -142,6 +142,10 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 > Select “OK”
 
+
+<img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/f20465ca-b9d2-46b8-b4b1-7db3e159b1b2" />
+
+
 - To connect our GitHub repository, we need its URL, e.g:
 ```
 https://github.com/bienary/tooling.git
