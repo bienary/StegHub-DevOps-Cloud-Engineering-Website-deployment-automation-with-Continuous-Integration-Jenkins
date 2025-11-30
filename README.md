@@ -33,6 +33,9 @@ sudo apt update
 sudo apt install -y fontconfig openjdk-17-jre
 ```
 
+<img width="1320" height="737" alt="image" src="https://github.com/user-attachments/assets/3c5b6445-c1ef-460d-a487-52ea97dfd69f" />
+
+
 ## Add the Jenkins repository key and configure the Jenkins package repository on the server.
 
 ```
@@ -52,4 +55,21 @@ sudo apt-get update
 sudo apt-get install jenkins -y
 ```
 
+
+<img width="1320" height="737" alt="image" src="https://github.com/user-attachments/assets/14cf66f6-f30f-44bb-ae89-dac0b1fcef68" />
+
+
 - Start and enable Jenkins:
+```
+sudo systemctl start jenkins
+
+sudo systemctl enable jenkins
+
+sudo systemctl status jenkins
+```
+
+
+<img width="1320" height="532" alt="image" src="https://github.com/user-attachments/assets/98dbc760-c820-4a99-9de5-ff634de11dfb" />
+
+
+
