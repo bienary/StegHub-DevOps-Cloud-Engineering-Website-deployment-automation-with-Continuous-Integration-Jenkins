@@ -191,4 +191,15 @@ https://github.com/bienary/tooling.git
 
 > Select “Archive the artifacts”.
 
-> Type Under files to archive and then Save.
+> Type ** under files to archive and then Save.
+
+
+<img width="1315" height="428" alt="image" src="https://github.com/user-attachments/assets/af13b042-a01a-4a3f-b44e-b7219ef2f1a7" />
+
+
+<img width="1315" height="615" alt="image" src="https://github.com/user-attachments/assets/52591ef3-c9ba-4c0a-bb47-a7fa3afdc608" />
+
+
+
+
+
