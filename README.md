@@ -105,6 +105,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 <img width="1320" height="687" alt="image" src="https://github.com/user-attachments/assets/5dee7be9-da4b-4c5f-8c46-3127334a5146" />
 
 
+
 # Step 2 :  Configure Jenkins to retrieve source codes from GitHub using Webhooks
 
 - Enable Webhooks in your GitHub repository settings by following this guide:
@@ -176,3 +177,18 @@ https://github.com/bienary/tooling.git
 <img width="1320" height="394" alt="image" src="https://github.com/user-attachments/assets/292127fd-a777-4e0d-8bfc-4ee39996189c" />
 
 
+
+- Configure for automated builds:
+
+
+Go to "Configure"
+
+> Click Triggers
+
+>  > Select “GitHub hook trigger for GITScm polling"
+
+> Go to Post-build actions
+
+> > Select “Archive the artifacts”.
+
+> Type ** under files to archive and then Save.
