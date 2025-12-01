@@ -181,14 +181,14 @@ https://github.com/bienary/tooling.git
 - Configure for automated builds:
 
 
-Go to "Configure"
+> Go to "Configure"
 
 > Click Triggers
 
->  > Select “GitHub hook trigger for GITScm polling"
+> Select “GitHub hook trigger for GITScm polling"
 
 > Go to Post-build actions
 
-> > Select “Archive the artifacts”.
+> Select “Archive the artifacts”.
 
-> Type ** under files to archive and then Save.
+> Type Under files to archive and then Save.
