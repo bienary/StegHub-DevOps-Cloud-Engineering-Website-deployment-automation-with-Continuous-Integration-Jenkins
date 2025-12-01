@@ -200,6 +200,6 @@ https://github.com/bienary/tooling.git
 <img width="1315" height="615" alt="image" src="https://github.com/user-attachments/assets/52591ef3-c9ba-4c0a-bb47-a7fa3afdc608" />
 
 
-
+_ Now, make a change to the Readme.md file of your GitHub repository (e.g., edit the README.MD file) and push it to the main branch. You will see that a new build has been launched automatically (by webhook), and you can see its results - artifacts, saved on the Jenkins server.
 
 
