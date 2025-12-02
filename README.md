@@ -200,7 +200,10 @@ https://github.com/bienary/tooling.git
 <img width="1315" height="615" alt="image" src="https://github.com/user-attachments/assets/52591ef3-c9ba-4c0a-bb47-a7fa3afdc608" />
 
 
-_ Now, make a change to the Readme.md file of your GitHub repository (e.g., edit the README.MD file) and push it to the main branch. You will see that a new build has been launched automatically (by webhook), and you can see its results - artifacts, saved on the Jenkins server.
+- Now update the README.md file in your GitHub repository (for example, make a small edit) and push the change to the main branch. You’ll notice that a new build is triggered automatically via the webhook, and you can view its results—including the artifacts—on the Jenkins server.
+
 
 <img width="1305" height="674" alt="image" src="https://github.com/user-attachments/assets/de907339-28d0-4d40-994e-38892bbccc19" />
 
+
+> We’ve set up an automated Jenkins job that gets files from GitHub through webhook triggers. Since GitHub initiates the transfer whenever changes are pushed, this approach is considered a “push” method.
