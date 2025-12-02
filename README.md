@@ -207,3 +207,30 @@ https://github.com/bienary/tooling.git
 
 
 > We’ve set up an automated Jenkins job that gets files from GitHub through webhook triggers. Since GitHub initiates the transfer whenever changes are pushed, this approach is considered a “push” method.
+
+
+- By default, Jenkins stores artifacts locally on the server:
+
+```
+ls /var/lib/jenkins/jobs/tooling_github/builds/4/archive/
+```
+
+<img width="1323" height="124" alt="image" src="https://github.com/user-attachments/assets/02e0c89e-c9e5-47fa-8984-84fcc03e3058" />
+
+---
+
+
+## Step 3: Set up Jenkins to transfer files to the NFS server using SSH.
+
+- Now that our artifacts are stored locally on the Jenkins server, let’s configure Jenkins to copy them to the NFS server.
+
+- We’ll use the “Publish Over SSH” plugin for this purpose.
+
+- Install the Publish Over SSH Plugin:
+
+- From the Jenkins dashboard, go to `Manage Jenkins` → `Manage Plugins`.
+
+- Click the `Available tab`.
+
+- Search for `Publish over SSH` and install it without restarting.
+
