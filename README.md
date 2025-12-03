@@ -256,6 +256,22 @@ ls /var/lib/jenkins/jobs/tooling_github/builds/4/archive/
 Test the configuration and make sure the connection returns Success.
 
 
+### Add a New Post-Build Action in Jenkins
+
+> From the Jenkins Dashboard, navigate to Manage Jenkins → System.
+
+> Scroll down to the Publish over SSH section.
+
+> Click Add Post-build Action.
+
+> Select Send build artifacts over SSH.
+
+> In the Source files field, enter: `**`
+
+> Update the Key field: replace the existing key with the new private key generated on the Jenkins server
+
+> Click Save to apply the changes.
+
 <img width="1299" height="612" alt="image" src="https://github.com/user-attachments/assets/a3846965-234d-43e5-8477-6da4ee6cb0df" />
 
 
