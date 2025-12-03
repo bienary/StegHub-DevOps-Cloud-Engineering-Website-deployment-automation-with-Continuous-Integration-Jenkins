@@ -234,6 +234,28 @@ ls /var/lib/jenkins/jobs/tooling_github/builds/4/archive/
 
 - Search for `Publish over SSH` and install it without restarting.
 
+<img width="1311" height="638" alt="Screenshot From 2025-12-02 01-39-18" src="https://github.com/user-attachments/assets/126fe3f9-37ae-4fef-a9a3-61037aeb130e" />
+
+
+- ### Configure Jenkins to copy artifacts to the NFS server:
+- On the main dashboard, go to "Manage Jenkins"
+> Click on "System"
+
+> Scroll down to the "Publish over SSH" section and configure the Plugin to connect to your NFS server.
+
+> Key: Provide your private key used to connect to the NFS server via SSH
+
+> SSH Server Name: NFS-Server
+
+> Hostname: The private IP address of your NFS server
+
+> Username: ec2-user
+
+> Remote directory: /mnt/apps
+
+Test the configuration and make sure the connection returns Success.
+
+
 <img width="1299" height="612" alt="image" src="https://github.com/user-attachments/assets/a3846965-234d-43e5-8477-6da4ee6cb0df" />
 
 
