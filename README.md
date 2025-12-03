@@ -255,6 +255,8 @@ ls /var/lib/jenkins/jobs/tooling_github/builds/4/archive/
 
 Test the configuration and make sure the connection returns Success.
 
+<img width="1311" height="688" alt="Screenshot From 2025-12-02 01-54-48" src="https://github.com/user-attachments/assets/74b13ffe-07c4-4ee9-afd4-78317f491fe4" />
+
 
 ### Add a New Post-Build Action in Jenkins
 
@@ -272,7 +274,35 @@ Test the configuration and make sure the connection returns Success.
 
 > Click Save to apply the changes.
 
+<img width="1311" height="688" alt="Screenshot From 2025-12-02 02-16-04" src="https://github.com/user-attachments/assets/1ba6053b-4846-4fd9-813c-0a41bd019d6a" />
+
+
+### Update the README.md in your GitHub Tooling repository
+
+
 <img width="1299" height="612" alt="image" src="https://github.com/user-attachments/assets/a3846965-234d-43e5-8477-6da4ee6cb0df" />
 
 
 <img width="1298" height="419" alt="image" src="https://github.com/user-attachments/assets/d412d012-4504-4969-a6c0-dc61cbafb8ad" />
+
+
+> 🎉 **Success!**  
+> If you see your changes reflected in the GitHub repository, your Jenkins job is running correctly.
+
+<details>
+<summary>📦 Deployment Details</summary>
+
+This setup provides automated deployment of code changes from GitHub to your NFS server, helping you:
+
+- Streamline the development workflow  
+- Enable continuous integration  
+- Ensure consistent and reliable deployments
+
+**How it works:**
+
+1. Push code changes to GitHub.
+2. Jenkins detects the changes and triggers the job.
+3. Build artifacts are sent to your NFS server automatically.
+4. Your updates are deployed without manual intervention.
+
+</details>
