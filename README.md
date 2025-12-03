@@ -234,3 +234,7 @@ ls /var/lib/jenkins/jobs/tooling_github/builds/4/archive/
 
 - Search for `Publish over SSH` and install it without restarting.
 
+<img width="1299" height="612" alt="image" src="https://github.com/user-attachments/assets/a3846965-234d-43e5-8477-6da4ee6cb0df" />
+
+
+<img width="1298" height="419" alt="image" src="https://github.com/user-attachments/assets/d412d012-4504-4969-a6c0-dc61cbafb8ad" />
